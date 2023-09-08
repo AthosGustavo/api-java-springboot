@@ -27,4 +27,7 @@ public class Aluno{
     joinColumns = @JoinColumn(name="id_aluno"),
     inverseJoinColumns = @JoinColumn(name="id_disciplina"))
     private List<Disciplina> listaDisciplina;
+
+    public Aluno(adicionaAlunoDTO alunoAdicionado) {
+    }
 }
